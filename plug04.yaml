@@ -1,6 +1,6 @@
 substitutions:
-  name: "plug-03"
-  friendly_name: "Athom Plug Living Room Dakboard"
+  name: "plug-brfan-03"
+  friendly_name: "Athom Plug Bedroom Fan"
   project_name: "athom.smart-plug"
   project_version: "1.0"
 
@@ -130,7 +130,7 @@ light:
   - platform: status_led
     name: "${friendly_name} Status LED"
     id: blue_led
-    disabled_by_default: true
+    disabled_by_default: false
     pin:
       inverted: true
       number: GPIO13
