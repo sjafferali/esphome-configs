@@ -1,5 +1,5 @@
 substitutions:
-  name: "plug-brfan-03"
+  name: "plug-brfan-01"
   friendly_name: "Athom Plug Bedroom Fan"
   project_name: "athom.smart-plug"
   project_version: "1.0"
