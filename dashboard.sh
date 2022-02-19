@@ -1,2 +1,2 @@
 ESPHOME="/Users/sjafferali/.virtualenvs/esphome/bin/esphome"
-$ESPHOME dashboard config/
+PATH="/Users/sjafferali/.virtualenvs/esphome/bin:$PATH" $ESPHOME dashboard config/
