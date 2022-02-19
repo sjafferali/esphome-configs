@@ -2,7 +2,7 @@ substitutions:
   name: "smart-plug"
   friendly_name: "Smart Plug"
   project_name: "athom.smart-plug"
-  project_version: "1.0"
+  project_version: "1.1"
 
 esphome:
   name: "${name}"
