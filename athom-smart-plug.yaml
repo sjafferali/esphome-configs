@@ -2,7 +2,7 @@ substitutions:
   name: "smart-plug"
   friendly_name: "Smart Plug"
   project_name: "athom.smart-plug"
-  project_version: "1.1"
+  project_version: "1.2"
 
 esphome:
   name: "${name}"
@@ -24,6 +24,7 @@ web_server:
 
 wifi:
   ap: {} # This spawns an AP with the device name and mac address with no password.
+  fast_connect: true
 
 captive_portal:
 
