@@ -1,0 +1,13 @@
+substitutions:
+  name: plug-brtv-06
+  friendly_name: "Bedroom TV Smart Plug 06"
+
+packages:
+  athom.smart-plug: github://sjafferali/esphome-configs/athom-smart-plug.yaml
+esphome:
+  name_add_mac_suffix: false
+
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
