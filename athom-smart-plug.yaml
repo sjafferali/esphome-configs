@@ -2,7 +2,7 @@ substitutions:
   name: "smart-plug"
   friendly_name: "Smart Plug"
   project_name: "athom.smart-plug"
-  project_version: "1.2"
+  project_version: "1.3"
 
 esphome:
   name: "${name}"
@@ -127,7 +127,8 @@ light:
       number: GPIO13
 
 time:
-  - platform: sntp
+  - platform: homeassistant
+    id: homeassistant_time
 
 text_sensor:
   - platform: wifi_info
