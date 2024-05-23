@@ -1,5 +1,5 @@
 substitutions:
-  name: apollo-air-1-ba4b9c
+  name: apollo-air-sensor
   friendly_name: apollo-air-sensor
 packages:
   ApolloAutomation.AIR-1: github://ApolloAutomation/AIR-1/Integrations/ESPHome/AIR-1.yaml
@@ -11,8 +11,11 @@ api:
   encryption:
     key: aUrcumo3RWK6T0mzf35lBK8cJtlXOFufh8751b/gEhI=
 
+logger:
+  level: DEBUG
 
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
   fast_connect: True
+  domain: .local.samir.systems

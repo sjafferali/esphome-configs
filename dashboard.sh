@@ -7,4 +7,4 @@ done
 
 
 ESPHOME="/Users/sjafferali/.virtualenvs/esphome/bin/esphome"
-PATH="/Users/sjafferali/.virtualenvs/esphome/bin:$PATH" $ESPHOME dashboard config/
+ESPHOME_DASHBOARD_USE_PING=true PATH="/Users/sjafferali/.virtualenvs/esphome/bin:$PATH" $ESPHOME dashboard config/
